@@ -40,7 +40,6 @@ li {
   width: 100%;
   height: 60px;
   position: fixed;
-  border-bottom: 1px solid black;
   z-index: 1;
 }
 
@@ -422,11 +421,12 @@ a:active {
   text-align: center;
   cursor: pointer;
   background-color: var(--slight-black-color);
+  border: none;
   font-size: 1.4rem;
 }
 
 .authen-form__footer .button--login:hover, .authen-form__footer .button--register:hover {
-  color: grey;
+  color: white;
 }
 
 .authen-form__header .button--login, .authen-form__header .button--register {

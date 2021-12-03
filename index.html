@@ -18,7 +18,7 @@
                     </a>
                 </li>
                 <li id="btnLogin" class="container--item">Login</li>
-                <li class="container--item">Article</li>
+                <li class="container--item"><a href="/Article.html">Article</a></li>
                 <li class="container--item">
                     <a href="#_menu">Menu</a>
                 </li>
@@ -47,6 +47,7 @@
                             <h1>$15</h1>
                         </div>
                         <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza. </p>
+                        <!-- sua add to card voi may data tu database addToCard("Ten pizza", gia) -->
                         <button class="pizza__text__button" onclick="addToCard(`Cheese Pizza`,15)">Add to order</button>
                     </div>
                 </div>
@@ -66,12 +67,12 @@
                     <img src="https://wowthemesnet.github.io/template-fooddelivery-bootstrap-html/img/pizza-1.png">
                     <div class="pizza__text">
                         <div class="pizza__text__header">
-                            <h1>Cheese pizza</h1>
+                            <h1>JSP Pizza name</h1>
                             <div class="pizza__text__header__seperator"> </div>
-                            <h1>$15</h1>
+                            <h1>$JSP pizza price</h1>
                         </div>
                         <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza. </p>
-                        <button class="pizza__text__button">Add to order</button>
+                        <button class="pizza__text__button" onclick="addToCard(JSP.PizzaName,JSP.PizzaPrice)">Add to order</button>
                     </div>
                 </div>
                 <div class="pizza" id="last">
