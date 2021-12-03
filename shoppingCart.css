@@ -1,0 +1,220 @@
+.container {
+  position: relative !important;
+  width: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  overflow-y: scroll;
+  padding: 0 !important;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.padding {
+  margin-bottom: 40px;
+}
+
+.itemContainer {
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 60px;
+  vertical-align: top;
+  border: 1px solid black;
+  -webkit-box-shadow: 16px 14px 47px -19px rgba(0, 0, 0, 0.43);
+          box-shadow: 16px 14px 47px -19px rgba(0, 0, 0, 0.43);
+  padding: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.itemContainer img {
+  width: 240px;
+}
+
+.itemContainer span {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.itemContainer .info {
+  border-left: 2px solid black;
+  padding-left: 10px;
+  height: 80%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.itemContainer #name {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.itemContainer #price {
+  font-size: 1.5rem;
+  text-align: right;
+  font-weight: bolder;
+  width: 100%;
+}
+
+.cartContent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.double_border {
+  border: 3px double #9e8122;
+}
+
+.bill {
+  background-color: white;
+  -webkit-box-shadow: 16px 14px 47px -19px rgba(0, 0, 0, 0.43);
+          box-shadow: 16px 14px 47px -19px rgba(0, 0, 0, 0.43);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 30%;
+  vertical-align: top;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+  padding: 20px 0;
+}
+
+.bill .title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.bill .btn {
+  padding: 12px;
+  width: 80%;
+  margin-bottom: 15px;
+  background-color: #ffaa00;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.bill .btn:active {
+  color: white;
+}
+
+.bill .text {
+  width: 80%;
+  margin: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(110, 110, 110, 0.082);
+  padding: 10px;
+}
+
+.bill .text .static {
+  width: 50%;
+  border-right: 2px solid black;
+}
+
+.bill .seperater {
+  content: "";
+  width: 80%;
+  border-bottom: 2px solid gray;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.bill .cbtn {
+  background-color: white;
+  text-align: center;
+}
+
+.bill .cbtn:active {
+  color: #ffaa00;
+}
+
+.card {
+  width: 57%;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.remove {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: none;
+  background-color: Transparent;
+  cursor: pointer;
+}
+
+.remove:hover svg {
+  fill: #ffaa00;
+}
+
+.remove:active svg {
+  fill: #cc8800;
+}

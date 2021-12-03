@@ -6,8 +6,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <script src="./login.js" defer></script>
+        <script src="./Cart.js" defer></script>
     </head>
-
     <body>
         <nav id="header">
             
@@ -47,19 +47,19 @@
                             <h1>$15</h1>
                         </div>
                         <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza. </p>
-                        <button class="pizza__text__button">Add to order</button>
+                        <button class="pizza__text__button" onclick="addToCard(`Cheese Pizza`,15)">Add to order</button>
                     </div>
                 </div>
                 <div class="pizza">
                     <img src="https://wowthemesnet.github.io/template-fooddelivery-bootstrap-html/img/pizza-1.png">
                     <div class="pizza__text">
                         <div class="pizza__text__header">
-                            <h1>Cheese pizza</h1>
+                            <h1>SeaFood pizza</h1>
                             <div class="pizza__text__header__seperator"> </div>
-                            <h1>$15</h1>
+                            <h1>$30</h1>
                         </div>
                         <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza. </p>
-                        <button class="pizza__text__button">Add to order</button>
+                        <button class="pizza__text__button" onclick="addToCard(`Seafood Pizza`,30)">Add to order</button>
                     </div>
                 </div>
                 <div class="pizza">
@@ -82,8 +82,8 @@
                             <div class="pizza__text__header__seperator"> </div>
                             <h1>$15</h1>
                         </div>
-                        <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza. </p>
-                        <button class="pizza__text__button">Add to order</button>
+                        <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza.</p>
+                        <button class="pizza__text__button" >Add to order</button>
                     </div>
                 </div>
             </div>
@@ -96,9 +96,9 @@
                 </a>
             </div>
         </footer>
-        <div class="cart">
+        <a class="cart" href="Cart.html">
             <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Font_Awesome_5_solid_shopping-cart.svg"/>
-        </div>
+        </a>
 
         <div id="modal">
         <div id="modal__layout" class="out-box-modal" >
