@@ -29,7 +29,6 @@
 	
 	height: 85%;
 	width: 80%;
-	background-color:green;
 	position: relative;
 	left: -3px;
 	top:-2px;
@@ -37,14 +36,11 @@
 	z-index: -1;
 	background-image: var(--url);
 	overflow-wrap: normal;
-	padding:25px;
+	padding:20px;
 	font-family: 'Gwendolyn';
 	// filter: brightness(70%);
 }
-body{
-	
 
-}
 .bg{
 	position: fixed;
 	height: 100vh;
@@ -56,7 +52,6 @@ body{
 .bletter{
 	height: 100%;
 	width: 100%;
-	background-color:rgb(255, 255, 255);
 	position: absolute;
 	// left: -10px;
 	background-image: var(--url);
@@ -64,7 +59,7 @@ body{
 	z-index: 1;
 	box-shadow: -1px -1px 20px 3px rgba(0,0,0,0.41);
 	overflow: hidden;
-	padding: 40px;
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
