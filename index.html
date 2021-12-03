@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>ItalianGang</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="./login.js" defer></script>
+    </head>
+
+    <body>
+        <nav id="header">
+            
+            <ul class="container">
+                <li id="icon" class="container--item">
+                    <a href="/">
+                        <img class="container--icon" src="https://wowthemesnet.github.io/template-fooddelivery-bootstrap-html/img/logo.png" alt="logo">
+                    </a>
+                </li>
+                <li id="btnLogin" class="container--item">Login</li>
+                <li class="container--item">Article</li>
+                <li class="container--item">
+                    <a href="#_menu">Menu</a>
+                </li>
+            </ul>
+        </nav>    
+        <main class="content">
+            <div class="banner">
+                <h1 class="banner--content">
+                    ITALIAN-GANG
+                </h1>
+                <h2 class="banner--content banner--content__h2">
+                   <span>Pizza for Gangsters</span>
+                   <span>eating 'til die</span>
+                </h2>
+
+            </div>
+            <div class="wraper">
+                <div id="_menu"></div>
+                <h1 id="menu">Menu</h1>
+                <div class="pizza">
+                    <img src="https://wowthemesnet.github.io/template-fooddelivery-bootstrap-html/img/pizza-1.png">
+                    <div class="pizza__text">
+                        <div class="pizza__text__header">
+                            <h1>Cheese pizza</h1>
+                            <div class="pizza__text__header__seperator"> </div>
+                            <h1>$15</h1>
+                        </div>
+                        <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza. </p>
+                        <button class="pizza__text__button">Add to order</button>
+                    </div>
+                </div>
+                <div class="pizza">
+                    <img src="https://wowthemesnet.github.io/template-fooddelivery-bootstrap-html/img/pizza-1.png">
+                    <div class="pizza__text">
+                        <div class="pizza__text__header">
+                            <h1>Cheese pizza</h1>
+                            <div class="pizza__text__header__seperator"> </div>
+                            <h1>$15</h1>
+                        </div>
+                        <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza. </p>
+                        <button class="pizza__text__button">Add to order</button>
+                    </div>
+                </div>
+                <div class="pizza">
+                    <img src="https://wowthemesnet.github.io/template-fooddelivery-bootstrap-html/img/pizza-1.png">
+                    <div class="pizza__text">
+                        <div class="pizza__text__header">
+                            <h1>Cheese pizza</h1>
+                            <div class="pizza__text__header__seperator"> </div>
+                            <h1>$15</h1>
+                        </div>
+                        <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza. </p>
+                        <button class="pizza__text__button">Add to order</button>
+                    </div>
+                </div>
+                <div class="pizza" id="last">
+                    <img src="https://wowthemesnet.github.io/template-fooddelivery-bootstrap-html/img/pizza-1.png">
+                    <div class="pizza__text">
+                        <div class="pizza__text__header">
+                            <h1>Cheese pizza</h1>
+                            <div class="pizza__text__header__seperator"> </div>
+                            <h1>$15</h1>
+                        </div>
+                        <p>Pizza cheese encompasses several varieties and types of cheeses and dairy products that are designed and manufactured for use specifically on pizza. </p>
+                        <button class="pizza__text__button">Add to order</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="foot_box">
+            <div class="foot_nav">
+                <a href="#" class="foot_nav_a"  >
+                    <img class="foot_icon" src="./up-arrow.png" alt="">
+                    <span>To Home Page</span>
+                </a>
+            </div>
+        </footer>
+        <div class="cart">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Font_Awesome_5_solid_shopping-cart.svg"/>
+        </div>
+
+        <div id="modal">
+        <div id="modal__layout" class="out-box-modal" >
+        </div>
+        <div id="modal__body">
+            <!-- Register form -->
+            <form class="authen-form -register-authen-form">
+                <div class="authen-form__container">
+                    <div class="authen-form__header">
+                        <h3 class="header-caption">Register</h3>
+                        <span class="seperate"></span>
+                        <button type="button" name="button" class="button--login -background-white -align-right" >Login</button>
+                    </div>
+                    <div class="authen-form__body">
+                        <div class="text-field">
+                            <input type="text" class="body-input" name="account" value="account" required>
+                            <label>Enter your account</label>
+                            <span></span>
+                        </div>
+                        <div class="text-field">
+                            <input type="password" class="body-input" name="password" value="password" minlength="8" maxlength="12" required>
+                            <label>Enter your password</label>
+                            <span></span>
+                        </div>
+                        <div class="text-field">
+                            <input type="password" class="body-input" name="re-password" value="re-password" required>
+                            <label>Enter your password again</label>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="authen-form__footer">
+                        <button type="button" class="button out-box-modal">Return</button>
+                        <button type="submit" class="button--register">Register</button>
+                    </div>
+                </div>
+                
+            </form>
+            <!-- Login form -->
+            <form action="" class="authen-form -login-authen-form">
+                <div class="authen-form__container">
+                    <div class="authen-form__header">
+                        <h3 class="header-caption">Login</h3>
+                        <span class="seperate"></span>
+                        <button type="button" name="button" class="button--register -background-white -align-right">Register</button>
+                    </div>
+                    <div class="authen-form__body">
+                        <div class="text-field">
+                            <input type="text" class="body-input" name="account" value="account" required>
+                            <label>Account</label>
+                            <span></span>
+                        </div>
+                        <div class="text-field">
+                            <input type="password" class="body-input" name="password" value="password" required>
+                            <label>Password</label>
+                            <span></span>
+                        </div>
+                        <div class="body-support">
+                            <a href="" class="body-support__link">Forgot your password</a>
+                            <span class="seperate"></span>
+                            <a href="" class="body-support__link">Support?</a>
+                        </div>
+                    </div>
+                    <div class="authen-form__footer">
+                        <button type="button" class="button out-box-modal">Return</button>
+                        <button type="button" class="button--login" >Login</button>
+                    </div>
+                </div>
+               
+            </form>
+        </div>
+    </div>
+
+    </body>
+
+
+</html>
+
+<!-- header height 72px -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
